@@ -71,3 +71,25 @@ footer p {
   margin: auto;
   padding: 0.5rem;
 }
+
+.wallpaper{
+  /* background-color: red; */
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 512px;
+  position: absolute;
+  /* display: flex; */
+}
+
+.wallpaper .row1{
+  padding-left: 150px;
+  width: 100%;
+  display: block;
+  /* background-color: red; */
+}
+
+.wallpaper .row2 img{
+  padding-top: 110px;
+  padding-left: 190px;
+  /* background-color:blue; */
+}
