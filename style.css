@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap");
 
 :root {
-  --primary: #f2c94c;
+  --primary: rgba(255, 255, 0, 0.89);
 }
 
 body {
@@ -21,17 +21,22 @@ body {
 }
 
 .main-area {
+  /* position: absolute; */
   display: flex;
   max-width: 600px;
   margin: auto;
   flex-direction: column;
   align-items: center;
+ 
+  /* background-color: green; */
 }
 
 textarea {
   margin: 2rem 0rem 1rem;
   width: 65%;
   min-height: 20vh;
+  text-align: center;
+  padding-top: 20px;
 }
 
 button {
@@ -44,10 +49,12 @@ button {
 }
 
 #output{
-    margin: 2rem;
+    margin: 1rem;
     width: 65%;
     min-height: 20vh;
-    border: 1px solid rgb(61, 59, 59);
+    border: 2px solid rgb(61, 59, 59);
+    text-align: center;
+    padding-top: 20px;
 }
 
 footer {
@@ -75,21 +82,25 @@ footer p {
 .wallpaper{
   /* background-color: red; */
   /* border: 2px solid black; */
-  width: 100%;
+  /* width: 100%; */
+  z-index: 1;
   height: 512px;
   position: absolute;
   /* display: flex; */
+
 }
 
 .wallpaper .row1{
   padding-left: 150px;
-  width: 100%;
+  width: 50%;
   display: block;
-  /* background-color: red; */
+  /* background-color: blue; */
+  
 }
 
 .wallpaper .row2 img{
   padding-top: 110px;
   padding-left: 190px;
-  /* background-color:blue; */
+  /* background-color:yellow; */
+
 }
