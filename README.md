@@ -10,3 +10,5 @@ langueges used
 <h3><i>Minions Translator</i></h3>
 
 <b>This is a fun translation web app developed using Vanilla JS.</b>
+
+<b>This app takes input from the user in English and translates to Minion language.</b>
